@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form validation in HTML & CSS | CodingNepal</title>
+  <link rel="stylesheet" href="./register.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+  <section>
+
+
+
+    <div class="img-wrapper">
+      <img src="register.jpg" alt="">
+    </div>
+
+    <div class="wrapper">
+      <header>SignUp</header>
+      <form action="/register" method="POST">
+        <div class="field email">
+          <div class="input-area">
+            <input type="email" name="email" placeholder="Email Address">
+            <i class="icon fas fa-envelope"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Email can't be blank</div>
+        </div>
+        <div class="field name">
+            <div class="input-area">
+              <input type="text" name="name" placeholder="Enter Name">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Name can't be blank</div>
+          </div>
+        <div class="field password">
+          <div class="input-area">
+            <input type="password" name="password" placeholder="Password">
+            <i class="icon fas fa-lock"></i>
+            <i class="error error-icon fas fa-exclamation-circle"></i>
+          </div>
+          <div class="error error-txt">Password can't be blank</div>
+        </div>
+        <div class="field confirm-password">
+            <div class="input-area">
+              <input type="password" placeholder="Confirm-Password" name="confirmPassword">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+        </div>
+
+        <input type="submit" value="Register">
+        <div class="sign-txt">Already Registered? <a href="/login">Login now</a></div>
+      </form>
+
+    </div>
+  </section>
+
+  <footer>
+    <p class="footer copyright-text">&#169;copyright | <span>Navya </span> | 2023</p>
+  </footer>
+
+  <script src="./register.js"></script>
+</body>
+
+</html>
